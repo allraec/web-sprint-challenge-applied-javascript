@@ -28,6 +28,10 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+-
+The object representation of the html elements of a webpage.
+-
+
 2. What is an event?
 
 3. What is an event listener?
