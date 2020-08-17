@@ -24,11 +24,6 @@ function Header() {
     h1.textContent = "Lambda Times";
     header.appendChild(h1);
 
-    const date = document.createElement("span");
-    date.classList.add("date");
-    date.textContent = "MARCH 28, 2020";
-    header.appendChild(date);
-
     const temp = document.createElement("span");
     temp.classList.add("temp");
     temp.textContent = "98°";
