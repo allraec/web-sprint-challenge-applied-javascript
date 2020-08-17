@@ -11,7 +11,7 @@
 // Use your function to create a header
 // and append it to the DOM inside the div.header-container
 
-function Header() {
+function headerMaker() {
     const header = document.createElement("div");
     header.classList.add("header");
 
@@ -33,4 +33,4 @@ function Header() {
 }
 
 const headerContainer = document.querySelector(".header-container");
-headerContainer.appendChild(Header());
+headerContainer.appendChild(headerMaker());
